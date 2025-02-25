@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.texts {
+    animation: scroller 4s infinite linear;
+}
+
+@keyframes scroller {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.first > h2 > span {
+    text-decoration: underline 3px;
+    text-underline-offset: 10px;
+}
+
+.R , .L {
+    text-decoration: underline 1.5px;
+    text-underline-offset: 3px;
+}
