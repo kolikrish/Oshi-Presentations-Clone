@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
         <nav className='bg-zinc-900 w-full text-white flex items-center justify-between px-20 py-8'>
-            <h2 className='text-2xl font-bold'>Ochi ,</h2>
+            <h2 className='text-2xl font-bold'>krish koli ,</h2>
 
             <div className="links">
                 {['Services' , 'Our works' , 'About us' , 'Insights' , 'Contact'].map((items,index) => (
