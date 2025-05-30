@@ -6,7 +6,7 @@ const Hero = () => {
 
       <div data-scroll data-scroll-section data-section-speed="-.8" className="bg-zinc-900 h-screen w-full pt-1">
         <div className="txtStructure mt-36 px-20">
-          {["We create", "Eye opening", "Presentations"].map((item, index) => {
+          {["We createe", "Eye opening", "Presentations"].map((item, index) => {
             return (
               <div className="masker">
                 <h1 className="uppercase text-8xl leading-none tracking-tighter">
