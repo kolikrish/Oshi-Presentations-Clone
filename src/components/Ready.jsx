@@ -7,7 +7,7 @@ const Ready = () => {
         <div className='h-screen w-full bg-[#CDEA68] flex flex-col gap-6 items-center justify-center text-black font-semibold'>
             {
                 ['READY' , 'TO START' , 'THE PROJECT'].map((item , index) => (
-                    <h1 className='text-[20vh] leading-[150px]'>{item}</h1>
+                    <h1 key={index} className='text-[20vh] leading-[150px]'>{item}</h1>
                 ))
             }
 

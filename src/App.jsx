@@ -12,10 +12,8 @@ import LocomotiveScroll from 'locomotive-scroll';
 import Ready from './components/Ready'
 
 function App() {
-
-
-const locomotiveScroll = new LocomotiveScroll();
-
+  
+  const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <>

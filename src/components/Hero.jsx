@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="txtStructure mt-36 px-20">
           {["We create", "Eye opening", "Presentations"].map((item, index) => {
             return (
-              <div className="masker">
+              <div key={index} className="masker">
                 <h1 className="uppercase text-8xl leading-none tracking-tighter">
                   {item}
                 </h1>
@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="border-t-[1px] border-zinc-700 mt-32 flex items-center justify-between px-20 py-5">
             {['For public and private companies', 'From the first pitch to IPO'].map((item , index) => {
                 return (
-                    <p className="text-md font-light tracking-tight leading-none">{item}</p>
+                    <p key={index} className="text-md font-light tracking-tight leading-none">{item}</p>
                 )
             })}
             

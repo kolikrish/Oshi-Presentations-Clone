@@ -13,7 +13,7 @@ const Cards = () => {
             <div className='w-full flex items-center justify-between px-20 py-6'>
                 {
                     ['Karman Ventures' , 'Services:' , 'William Barnes' , 'Read'].map((item , index) => (
-                        <h3 className='text-lg underline underline-offset-5'>{item}</h3>
+                        <h3 key={index} className='text-lg underline underline-offset-5'>{item}</h3>
                     ))
                 }
             </div>
