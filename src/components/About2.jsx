@@ -11,7 +11,7 @@ const About2 = () => {
           </button>
         </div>
 
-        <div className="img-div h-[90%] w-[50%] bg-purple-600 rounded-2xl bg-[url(./assets/image1.jpg)] bg-cover bg-center bg-no-repeat"></div>
+        <div className="img-div h-[90%] w-[50%] bg-purple-600 rounded-2xl bg-[url('https://res.cloudinary.com/djtagt9xw/image/upload/v1754811279/Image1_t3xhui.jpg')] bg-cover bg-center bg-no-repeat"></div>
       </div>
     </>
   );

@@ -21,7 +21,7 @@ const Eyes = () => {
   return (
     <>
         <div className='h-screen w-full overflow-hidden'>
-            <div data-scroll data-scroll-speed="-.6" className='h-[100%] w-[100%] bg-lime-500 bg-[url(./assets/image2.jpg)] bg-cover bg-center bg-no-repeat flex items-center justify-center'>
+            <div data-scroll data-scroll-speed="-.6" className='h-[100%] w-[100%] bg-lime-500 bg-[url("https://res.cloudinary.com/djtagt9xw/image/upload/v1754811222/Image2_rrup5r.jpg")] bg-cover bg-center bg-no-repeat flex items-center justify-center'>
                 <div className="circle-div flex items-center gap-12">
                     <div className="circle h-[13vw] w-[13vw] bg-zinc-50 rounded-full flex items-center justify-center">
                         <div className='h-2/3 w-2/3 bg-black rounded-full relative'>
